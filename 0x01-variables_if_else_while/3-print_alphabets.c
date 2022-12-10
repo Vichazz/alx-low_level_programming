@@ -1,10 +1,10 @@
-0-positive_or_negative.c#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - program starts
  * Return: returns 0
  */
-g
+
 int main(void)
 {
 char alphabet;
