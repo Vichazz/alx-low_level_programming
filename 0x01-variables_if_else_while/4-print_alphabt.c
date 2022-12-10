@@ -1,4 +1,4 @@
-#include <stdio.h>
+/#include <stdio.h>
 
 /**
  * main - program start
@@ -8,7 +8,6 @@
 int main(void)
 {
 int alphabet;
- 
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 if (alphabet == 'q' || alphabet == 'e')
