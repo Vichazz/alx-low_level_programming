@@ -8,9 +8,10 @@
 int main(void)
 {
 int alphabet;
+ 
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-if (alphabet == 'q' || aphabet == 'e')
+if (alphabet == 'q' || alphabet == 'e')
 continue;
 putchar (alphabet);
 }
