@@ -18,10 +18,10 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 Last_num = n % 10;
 if (Last_num > 5)
-printf("Last digit of %d is %d and is greater then 5\n", n, Last_num);
+printf("Last digit of %d is %d and is greater than 5\n", n, Last_num);
 else if (Last_num == 0)
 printf("Last digit of %d is %d and is 0\n", n, Last_num);
-else if (Last_num > 6 && Last_num != 0)
-printf("Last digit od %d id %d and is less than 6 and not 0\n", n, Last_num);
+else if (Last_num < 6 && Last_num != 0)
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, Last_num);
 return (0);
 }
