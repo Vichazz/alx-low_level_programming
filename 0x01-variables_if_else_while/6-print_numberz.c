@@ -8,10 +8,9 @@
 int main(void)
 {
 int digits;
-p = (char) digits;
- 
+
 for (digits = 0; digits < 10; digits++)
-putchar(p);
+putchar(digits % 10 + '0');
 putchar('\n');
 return (0);
 
