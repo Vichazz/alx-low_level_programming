@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -21,7 +21,7 @@ if (Last_num > 5)
 printf("Last digit of %d is %d and is greater then 5\n", n, Last_num);
 else if (Last_num == 0)
 printf("Last digit of %d is %d and is 0\n", n, Last_num);
-else if (Last_num > 6 && != 0)
+else if (Last_num > 6 && Last_num != 0)
 printf("Last digit od %d id %d and is less than 6 and not 0\n", n, Last_num);
 return (0);
 }
