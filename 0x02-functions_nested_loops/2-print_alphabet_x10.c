@@ -7,11 +7,15 @@
 
 void print_alphabet_x10(void)
 {
-char goat;
-char final;
-
-for (goat = 'a'; goat = 'z'; goat++)
-for (final = goat; final <= '10'; final++)
-_putchar(final);
+char count;
+char alpha;
+ for (count = '0'; count <= '9'; count++)
+   {
+for (alpha = 'a'; alpha = 'z'; alpha++)
+  {
+_putchar(alpha);
 _putchar('\n');
+   }
+
+}
 }
