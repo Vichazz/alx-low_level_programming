@@ -7,7 +7,7 @@
 void print_alphabet(void)
 {
 char goat;
-for (goat = 'a'; goat =< 'z'; goat++)
+for (goat = 'a'; goat <= 'z'; goat++)
 _putchar(goat);
 _putchar('\n');
 return (0);
