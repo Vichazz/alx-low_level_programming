@@ -15,17 +15,14 @@ char s = 'c';
 char t = 'h';
 char u = 'a';
 char v = 'r';
-  
 _putchar(g);
 _putchar(p);
- _putchar(q);
- _putchar(r);
- _putchar(s);
- _putchar(t);
- _putchar(u);
- _putchar(v);
- _putchar('\n');
- 
+_putchar(q);
+_putchar(r);
+_putchar(s);
+_putchar(t);
+_putchar(u);
+_putchar(v);
+_putchar('\n');
 return (0);
-
 }
