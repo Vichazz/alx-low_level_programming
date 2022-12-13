@@ -15,6 +15,7 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 _putchar(alpha);
 }
-_putchar(count);
+
 }
+_putchar('\n');
 }
