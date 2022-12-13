@@ -2,9 +2,10 @@
 #include "stdio.h"
 /**
  *_abs - program start
+ *@n - function parameter
  *Return: returns 0
  */
-int _abs(int)
+int _abs(int n)
 {
 if (n >= 0)
 {
