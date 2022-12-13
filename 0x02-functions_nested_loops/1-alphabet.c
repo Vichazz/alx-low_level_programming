@@ -10,5 +10,5 @@ char goat;
 for (goat = 'a'; goat <= 'z'; goat++)
 _putchar(goat);
 _putchar('\n');
-return (0);
+
 }
