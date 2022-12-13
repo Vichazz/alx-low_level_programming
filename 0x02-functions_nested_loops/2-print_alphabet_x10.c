@@ -11,7 +11,7 @@ char goat;
 char final;
 
 for (goat = 'a'; goat = 'z'; goat++)
-for (final = goat; final <= 10; final++)
+for (final = goat; final <= '10'; final++)
 _putchar(final);
 _putchar('\n');
 }
