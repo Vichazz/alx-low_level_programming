@@ -2,7 +2,7 @@
 
 /**
  * print_line - start
- * n: function parameter
+ * @n: function parameter
  */
 
 void print_line(int n)
