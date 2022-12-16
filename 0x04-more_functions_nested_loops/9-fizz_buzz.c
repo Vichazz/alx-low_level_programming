@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - start program
- * return: returns 0
+ * Return: returns 0
  */
 
 int main(void)
