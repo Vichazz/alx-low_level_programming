@@ -9,7 +9,7 @@ int counter;
 int hash;
 if (size > 0)
 {
-for (counter = 0; counter < size; size++)
+for (counter = 0; counter < size; counter++)
 {
 for (hash = 0; hash < size; hash++)
 _putchar('#');
