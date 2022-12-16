@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - start program
- * Return: returns 0
+ * main - Prints the numbers from 1-100
+ * for multiples of three, Fizz is printed
+ * for multiples of five Buzz is printed
+ * for multiples of both three and five, FizzBuzz is printed
+ * Return: Always 0.
  */
 
 int main(void)
@@ -11,28 +14,16 @@ int num;
 for (num = 1; num <= 100; num++)
 {
 if ((num % 3) == 0 && (num % 5) == 0)
-{
 printf("FizzBuzz");
-printf(" ");
-continue;
-}
-else if (num % 3 == 0)
-{
+else if ((num % 3) == 0)
 printf("Fizz");
-printf(" ");
-continue;
-}
-else if (num % 5 == 0)
-{  
+else if ((num % 5) == 0)
 printf("Buzz");
-printf(" ");
-continue;
-}
+else
 printf("%d", num);
-printf(" ");
- 
-if (num == 100);
+if (num == 100)
 continue;
+printf(" ");
 }
 printf("\n");
 return (0);
