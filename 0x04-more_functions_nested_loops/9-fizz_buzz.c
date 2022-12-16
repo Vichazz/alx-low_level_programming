@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - start program
  * Return: returns 0
@@ -12,20 +12,27 @@ for (num = 1; num <= 100; num++)
 {
 if ((num % 3) == 0 && (num % 5) == 0)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
+printf(" ");
 continue;
 }
-if (num % 3 == 0)
+else if (num % 3 == 0)
 {
-printf("Fizz ");
+printf("Fizz");
+printf(" ");
 continue;
 }
-if (num % 5 == 0)
-{
-printf("Buzz ");
+else if (num % 5 == 0)
+{  
+printf("Buzz");
+printf(" ");
 continue;
 }
-printf("%d ", num);
+printf("%d", num);
+printf(" ");
+ 
+if (num == 100);
+continue;
 }
 printf("\n");
 return (0);
