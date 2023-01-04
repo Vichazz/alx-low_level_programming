@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * _print_rev_recursion - function prototype
+ * @s: function parameter
+ */
+
+void _print_rev_recursion(char *s)
+{
+  static int count;  
+if (*s)
+{
+_print_rev_recursion(s + 1);
+_putchar(*s);
+}
+}
