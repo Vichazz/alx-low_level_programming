@@ -1,0 +1,1 @@
+Task Static Libraries
