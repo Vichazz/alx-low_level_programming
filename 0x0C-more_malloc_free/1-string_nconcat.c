@@ -7,13 +7,12 @@
  */
 int _strlen(char *s)
 {
-  unsigned int c;
+unsigned int c;
 
-  for (c = 0; s[c] != 0; c++)
-    {
-    }
-  return (c);
-
+for (c = 0; s[c] != 0; c++)
+{
+}
+return (c);
 }
 
 /**
