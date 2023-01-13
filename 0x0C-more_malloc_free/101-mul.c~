@@ -1,0 +1,38 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - program execute from here
+ * err - print error function
+ * @argc: argument counter
+ * @argv: argument vector
+ * Return: return 0
+ */
+
+void err();
+
+int main(int argc, char *argv[])
+{
+  int mul, num1, num2;
+  if (argc <= 2)
+    {
+      err();
+      exit(98);
+    }
+  num1 = atoi(argv[0]);
+  num2 = atoi(argv[1]);
+
+mul = num1 * num2;
+ _putchar(mul);
+ return (0);
+}
+
+void err()
+{
+int i;
+char str[] = {'E', 'r', 'r', 'o', 'r'};
+for(i = 0; i < 6; i++)
+_putchar(str[i]);
+_putchar('\n');
+}
