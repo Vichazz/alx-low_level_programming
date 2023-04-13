@@ -1,4 +1,4 @@
-x#include "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_get - function to get a value of a key in a hash table
@@ -12,7 +12,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 unsigned long int id;
 hash_node_t *current_node;
 
-if (ht == NULL || *key == '\0' || key == NULL)
+if (ht == NULL || key == NULL || *key == '\0')
 return (NULL);
 
 id = key_index((const unsigned char *)key, ht->size);
@@ -23,5 +23,5 @@ current_node = ht->array[idx];
 while (current_node && strcmp(current_node->key, key) != 0)
 current_node = current_node->next;
 
-return((node == NULL) ? NULL : node->value);
+return ((node == NULL) ? NULL : node->value);
 }
