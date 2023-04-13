@@ -13,7 +13,7 @@ unsigned long int i, id;
 char *copy_value;
 hash_node_t *new_htable;
 
-if (ht == NULL || key == NULL || *key == 48 || value == NULL)
+if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 
 copy_value = strdup(value);
@@ -36,7 +36,7 @@ if (new_htable == NULL)
 free(copy_value);
 return (0);
 }
-new_ht->key = strdup(key);
+new_htable->key = strdup(key);
 if (new_htable->key == NULL)
 {
 free(new_htable);
